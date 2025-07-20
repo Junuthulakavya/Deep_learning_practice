@@ -1,13 +1,12 @@
 # Deep_learning_practice
-In this Iam going to explain you the different neural netorks in brief
+In this Iam going to explain you the different neural netorks in brief<br>
 <b>FNN:Feedforward Neural Network</b>
 Feedforward Neural Network (FNN) is a type of artificial neural network in which information flows in a single direction—from the input layer through hidden layers to the output layer—without loops or feedback. It is mainly used for pattern recognition tasks like image and speech classification.
 Input Layer: The input layer consists of neurons that receive the input data. Each neuron in the input layer represents a feature of the input data.
 Hidden Layers: One or more hidden layers are placed between the input and output layers. These layers are responsible for learning the complex patterns in the data. Each neuron in a hidden layer applies a weighted sum of inputs followed by a non-linear activation function.
 Output Layer: The output layer provides the final output of the network. The number of neurons in this layer corresponds to the number of classes in a classification problem or the number of outputs in a regression problem.<br><br>
 <b>CNN:Convolutional Neural Network</b>
-A Convolutional Neural Network is a type of neural network designed to work with image data. Instead of using Flatten like in FNNs (which ignores spatial structure), CNNs preserve the spatial hierarchy (pixels near each other are related) by using:<br>| Layer Type       | Purpose                                    |
-| ---------------- | ------------------------------------------ |
+A Convolutional Neural Network is a type of neural network designed to work with image data. Instead of using Flatten like in FNNs (which ignores spatial structure), CNNs preserve the spatial hierarchy (pixels near each other are related) by using:<br>| Layer Type | Purpose|
 | Conv2D      | Extracts features from local patches       |
 | ReLU       | Applies non-linearity                      |
 | MaxPooling2D | Reduces dimensions (downsampling)          |
