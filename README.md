@@ -1,4 +1,4 @@
-# Deep_learning_practice
+**# Deep_learning_practice
 In this Iam going to explain you the different neural netorks in brief<br>
 <b>FNN:Feedforward Neural Network</b>
 Feedforward Neural Network (FNN) is a type of artificial neural network in which information flows in a single direction—from the input layer through hidden layers to the output layer—without loops or feedback. It is mainly used for pattern recognition tasks like image and speech classification.
@@ -92,3 +92,4 @@ Latent Representation (compressed)
      ↓
 Reconstructed Output (same shape as input)
 
+**
